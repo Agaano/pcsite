@@ -1,0 +1,120 @@
+header {
+    user-select: none;
+    background: url("./penix/Рисунок2.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+}
+
+a {
+    color: white;
+}
+
+a:hover:active{
+    color: white;
+    transition-duration: 0.1s;
+}
+
+a:hover{
+    color: #ff8040;
+    transition-duration: 0.5s;
+}
+
+body {
+    user-select: none;
+    background-color: black;
+}
+
+.header_top {
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+}
+
+.info {
+    margin-top: 60px;
+    font-size: 35px;
+    font-family: Constantia;
+}
+
+.buttons {
+    margin-top:10px;
+    display: flex;
+    column-gap: 40px;
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+.logo {
+    margin-left: 300px;
+    margin-top: 50px;
+    line-height: 60px;
+}
+
+.logo1{
+    font-size: 80px;
+    font-family: Garamond;
+    text-shadow: -0   -2px 0   black,
+    0   -2px 0   black,
+    -0    2px 0   black,
+    0    2px 0   black,
+    -2px -0   0   black,
+    2px -0   0   black,
+    -2px  0   0   black,
+    2px  0   0   black,
+    -1px -2px 0   black,
+    1px -2px 0   black,
+    -1px  2px 0   black,
+    1px  2px 0   black,
+    -2px -1px 0   black,
+    2px -1px 0   black,
+    -2px  1px 0   black,
+    2px  1px 0   black,
+    -2px -2px 0   black,
+    2px -2px 0   black,
+    -2px  2px 0   black,
+    2px  2px 0   black,
+    -2px -2px 0   black,
+    2px -2px 0   black,
+    -2px  2px 0   black,
+    2px  2px 0   black;
+}
+
+.logo2{
+    font-size: 40px;
+    font-family: Gabriola;
+}
+
+.header_bot {
+    font-size: 35px;
+    font-family: Garamond;
+    width: 1690px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    color: white;
+}
+
+.group_of_imgs {
+    width: 1690px;
+    column-gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.img {
+    width: 550px;
+    height: 300px;
+}
+
+.arrow {
+    margin-top: 10px;
+    margin-left: 48%;
+    width: 50px;
+}
